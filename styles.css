@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+.hero{
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-name{
+    margin-top: 300px;
+    background-color: #bc6c25;
+    padding: 4px 10px;
+    border-radius: 10px;
+    color: white;
+}
+#title-detail{
+    margin-top: 20px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #dda15e;
+    border-radius: 10px;
+}
+.place{
+    text-align: center;
+}
+
+.places{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.place img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.place-detail{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.place-desc{
+    width: 300px;
+    height:60px;
+}
+
+.guide{
+    display:flex;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background-color: #a8dadc;
+    border-bottom: 4px solid #073b4c;
+}
+#guide-img{
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 200px;
+    height: 250px;
+}
+.guide-detail{
+    margin-top: 30px;
+    text-align: center;
+}
+#guide-p{
+    margin-top: 20px;
+}
+#guide-h{
+    margin-top: 20px;
+}
+
+.clr{
+    color: #073b4c;
+}
